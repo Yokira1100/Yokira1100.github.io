@@ -28,10 +28,14 @@ body {
 
 footer {
     background-color: white;
-    text-align: center;
+    color: black;
     margin-top: 64px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+footer .centered {
+    color: black;
 }
 
 ol, ul {
@@ -179,6 +183,10 @@ ol, ul {
 
 .summary li{
     margin-top: 1em;
+}
+
+.Task-4{
+    text-decoration: underline;
 }
 
 .trending-list{
