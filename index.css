@@ -105,6 +105,9 @@ ol, ul {
 
 .container{
     margin: auto;
+    position: relative;
+    text-align: center;
+    color: white;
     max-width: 1140px;
     padding-left: 16px;
     padding-right: 16px;
@@ -162,12 +165,6 @@ ol, ul {
     border-radius: 8px;
     display: block;
     width: 100%;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
 }
 
 .square {
@@ -266,14 +263,6 @@ ol, ul {
     color: white;
 }
 
-.home p{
-    margin: 1em 0;
-}
-
-.home .read-more{
-    text-align: right;
-}
-
 .blog-post article {
     margin-left: 2em;
     margin-right: 2em;
@@ -313,13 +302,6 @@ ol, ul {
 
 .blog-sidebar p{
     margin: 0;
-}
-
-.container{
-    margin: auto;
-    max-width: 1140px;
-    padding-left: 16px;
-    padding-right: 16px;
 }
 
 .jumbotron{
@@ -374,12 +356,6 @@ ol, ul {
     border-radius: 8px;
     display: block;
     width: 100%;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
 }
 
 .square {
