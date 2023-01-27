@@ -101,13 +101,12 @@ ol, ul {
     font-weight: bold;
 }
 
-.Task-4{
+.Task-3{
     text-decoration: underline;
 }
 
 .square {
     border-radius: 8px;
     display: block;
-    float: right;
     grid-template-columns: 300px 1fr;
     }

@@ -11,8 +11,10 @@
     margin: 1em 0;
 }
 
-.news .read-more{
+.read-more{
     text-align: right;
+    color: white;
+    font-weight: bold;
 }
 
 .blog-post article {

@@ -5,14 +5,13 @@
 .about p{
     text-align: justify;
     display: grid;
-    grid-template-columns: 500px 1fr;
+    grid-template-columns: 200px 1fr;
     gap: 1rem;
     margin: 0 auto;
 }
 
 .square {
-    border-radius: 8px;
-    display: block;
-    float: right;
-    grid-template-columns: 300px 1fr;
+    scale: 30%;
+    float: left;
+    grid-template-columns: 200px 1fr;
     }
