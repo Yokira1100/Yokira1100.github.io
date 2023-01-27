@@ -136,14 +136,8 @@ ol, ul {
     padding: 16px;
 }
 
-.navbar a {
-    display: block;
-    padding: .5em;
-}
-
 .navbar-nav {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     list-style: none;
     padding: 0;
@@ -155,10 +149,14 @@ ol, ul {
     padding: 0 4em;
 }
 
-
 .navbar-nav .nav-item .nav-link {
     border: black;
+    display: block;
+    padding: .5em;
+}
 
+.navbar-nav .navbar-link {
+    font-weight: bold;
 }
 
 .rounded-image img{

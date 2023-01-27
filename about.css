@@ -45,66 +45,15 @@ ol, ul {
 
 
 
-.home {
+.about {
     margin-bottom: 2em;
-}
-
-.home h2{
-    margin-bottom: .5em;
-    color: white;
-}
-
-.home p{
-    margin: 1em 0;
-}
-
-.home .read-more{
-    text-align: right;
-}
-
-.blog-post article {
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
-.blog-post header{
-    margin-top: 4em;
-    text-align: center;
-}
-
-.blog-post .author{
-    color: #808386;
-    font-size: 0.75em;
-}
-
-.blog-post .category{
-    text-transform: uppercase;
-}
-
-.blog-post .image{
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.blog-post .subtitle{
-    margin-top: 2em;
-}
-
-.blog-post .title{
-    text-transform: capitalize;
-}
-
-.blog-sidebar h4{
-    text-transform: uppercase;
-    margin: 1em 0 0.25em;
-}
-
-.blog-sidebar p{
-    margin: 0;
 }
 
 .container{
     margin: auto;
+    position: relative;
+    text-align: center;
+    color: white;
     max-width: 1140px;
     padding-left: 16px;
     padding-right: 16px;
@@ -133,14 +82,8 @@ ol, ul {
     padding: 16px;
 }
 
-.navbar a {
-    display: block;
-    padding: .5em;
-}
-
 .navbar-nav {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     list-style: none;
     padding: 0;
@@ -152,22 +95,14 @@ ol, ul {
     padding: 0 4em;
 }
 
-
 .navbar-nav .nav-item .nav-link {
     border: black;
-
-}
-
-.rounded-image img{
-    border-radius: 8px;
     display: block;
-    width: 100%;
+    padding: .5em;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
+.navbar-nav .navbar-link {
+    font-weight: bold;
 }
 
 .square {
@@ -255,71 +190,25 @@ ol, ul {
     margin: 0;
 }
 
-
-
-.home {
+.about {
     margin-bottom: 2em;
 }
 
-.home h2{
-    margin-bottom: .5em;
-    color: white;
+.about p{
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 1rem;
+    margin: 0 auto;
 }
 
-.home p{
-    margin: 1em 0;
-}
-
-.home .read-more{
-    text-align: right;
-}
-
-.blog-post article {
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
-.blog-post header{
-    margin-top: 4em;
-    text-align: center;
-}
-
-.blog-post .author{
-    color: #808386;
-    font-size: 0.75em;
-}
-
-.blog-post .category{
-    text-transform: uppercase;
-}
-
-.blog-post .image{
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.blog-post .subtitle{
-    margin-top: 2em;
-}
-
-.blog-post .title{
-    text-transform: capitalize;
-}
-
-.blog-sidebar h4{
-    text-transform: uppercase;
-    margin: 1em 0 0.25em;
-}
-
-.blog-sidebar p{
-    margin: 0;
-}
-
-.container{
-    margin: auto;
-    max-width: 1140px;
-    padding-left: 16px;
-    padding-right: 16px;
+.rounded-image img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    width: 50%;
+    float: right;
+    grid-template-columns: 300px 1fr;
 }
 
 .jumbotron{
@@ -368,23 +257,6 @@ ol, ul {
 .navbar-nav .nav-item .nav-link {
     border: black;
 
-}
-
-.rounded-image img{
-    border-radius: 8px;
-    display: block;
-    width: 100%;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.square {
-    width: 150px;
-    height: 150px;
 }
 
 .centered {
