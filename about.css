@@ -1,17 +1,15 @@
-.container {
-    display: flex;
-    justify-content: center
+.about {
+    margin-bottom: 2em;
+}
+
+p{
+    text-align: justify;
+    clear: right;
 }
 
 img {
-    max-width: 100%
-}
-
-.image {
-    order: 2;
-}
-
-.text {
-    padding-right: 20px;
-    text-align: justify;
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-left: 30px;
 }
