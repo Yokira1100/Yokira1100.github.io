@@ -53,8 +53,8 @@ ol, ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
-    height: 12em;
-    margin-bottom: 2em;
+    height: 10em;
+    margin-bottom: .5em;
     position: relative;
 }
 
