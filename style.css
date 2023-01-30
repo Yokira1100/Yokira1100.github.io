@@ -23,7 +23,6 @@ body {
     margin: 0;
 }
 
-
 footer {
     background-color: white;
     text-align: center;
@@ -46,8 +45,8 @@ ol, ul {
     color: white;
     margin: auto;
     max-width: 1140px;
-    padding-left: 16px;
-    padding-right: 16px;
+    display: flex;
+    justify-content: center
 }
 
 .jumbotron{
@@ -77,15 +76,17 @@ ol, ul {
 }
 
 .navbar-nav {
+    position: relative;
     display: flex;
     list-style: none;
-    padding: 0;
+    margin: auto;
+    max-width: 1140px;
 }
 
-.nav-item {
+.nav-item :not(.navbar-link) {
     background-color: white;
     color: black; 
-    padding: 0 2em;
+    padding: .75em 2em;
     border: black;
     border-style: solid;  
 }
@@ -96,12 +97,13 @@ ol, ul {
 }
 
 .navbar-nav .navbar-link {
-    font-weight: bold;
+    background-color: white;
+    color: black; 
+    padding: .5em 2em;
     border: goldenrod;
     border-style: solid;
+    font-weight: bold;
     border-width: 7px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .Task-3{
