@@ -6,6 +6,11 @@ time {
     font-style: italic;
 }
 
+iframe {
+    width: 887px;
+    height: 499px;
+}
+
 p {
     text-align: justify;
 }
