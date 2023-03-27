@@ -15,6 +15,11 @@ img {
     margin-right: 30px;
 }
 
+.email {
+    color: #415A8B;
+    text-decoration: underline;
+}
+
 label {
     margin-top: 20px;
 }
