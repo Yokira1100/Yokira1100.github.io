@@ -52,31 +52,33 @@
                         <a href="mailto:loremipsum@loremipsum.com" class="email">loremipsum@loremipsum.com</a>
                         or use the form below.
                     </p>
-                    <form action="#" method="get">
+                    <form action="mailto:loremipsum@loremipsum.com" method="get" enctype="text/plain">
 
                         <label for="Name">Name:</label>
                         <br>
-                        <input type="text" name="Name" id="Name">
+                        <input type="text" name="Name" id="Name" placeholder="Full Name">
                 
                         <br><br>
                                 
                         <label for="email">Email:</label>
                         <br>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" placeholder="sender@example.com">
                 
                         <br><br>
 
-                        <p><label for="message">Message</label></p>
-                        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                        <p><label for="message">Message:</label></p>
+                        <textarea name="body" id="message" name="message" rows="4" cols="50" placeholder="Message"></textarea>
 
                         <br><br>
                 
-                        <button type="submit">Send!</button>
+                        <input type="submit" value="Send" class="button">
                 
                         <br><br>
                 
                 
                     </form>
+
+                    
                 </div>
             </div>
         </main>
