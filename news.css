@@ -4,7 +4,7 @@
 
 .news h4{
     margin-bottom: .1em;
-    color: white;
+    color: #415A8B;
 }
 .news p{
     margin: 1em 0;
@@ -17,7 +17,7 @@
 
 .read-more{
     text-align: right;
-    color: white;
+    color: #415A8B;
     font-weight: bold;
     text-decoration: underline;
 }
