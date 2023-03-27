@@ -2,11 +2,6 @@
     margin-bottom: 2em;
 }
 
-.article h2{
-    margin-bottom: .5em;
-    color: white;
-}
-
 time {
     font-style: italic;
 }
@@ -20,7 +15,7 @@ ul {
 }
 
 .link {
-    color: white;
+    color: #415A8B;
     text-decoration: underline;
 }
 
